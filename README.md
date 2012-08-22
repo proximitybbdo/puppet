@@ -1,9 +1,16 @@
-puppet
-======
+Proximity Puppet
+================
 
-Just run the `run.sh` file on a fresh Ubuntu installation (as __root!__) and it will:
-- install puppet for you
-- get our magic puppet potions
-- setup your machine to a devine state!
+Our puppet modules to setup our dev machines.
 
-`bash <( curl -s https://raw.github.com/proximitybbdo/puppet/master/run.sh )`
+Requirements
+------------
+- Ubuntu linux (for now, we will make it distro-independent later on) with:
+  - git
+  - sudo rights available
+
+Note
+----
+Before the script attempted to setup the machine as a whole for you.
+This was not the right approach. Now you have to get up to par with the default
+puppet requirements and start from there.
