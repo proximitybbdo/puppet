@@ -2,7 +2,7 @@
 
 # install puppet
 echo '$$ Installing puppet'
-sudo apt-get -y install puppet-common
+sudo apt-get -y -q install puppet-common
 
 # copy the initial setup manifest to the machine
 echo '$$ Copy the initial setup manifest to the machine'
@@ -14,4 +14,3 @@ echo '$$ Let puppet run the initial task, installing git'
 puppet apply /etc/puppet/manifests/init.pp
 
 # now clone our puppet repo on the machine and restart puppet
-service puppet restart
