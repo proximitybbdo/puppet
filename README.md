@@ -9,6 +9,9 @@ Requirements
   - git
   - sudo rights available
 
+Then clone the repo on your machine (e.g. in your home folder) and symlink 
+the `modules` and `manifests` folder.
+
 Note
 ----
 Before the script attempted to setup the machine as a whole for you.
